@@ -108,7 +108,6 @@ module.exports = (bundler) => {
 					globDirectory: outDir,
 					globPatterns: ['**\/*.{html,js,css,jpg,png}'],
 					swDest: swDest,
-					navigateFallback: publicURL+"/index.html",
 					clientsClaim: true,
 					skipWaiting: true,
 					"templatedUrls": {
